@@ -1,0 +1,7 @@
+[theme]
+base = "dark"
+primaryColor = "#FFB347"        # brighter amber for buttons/accents
+backgroundColor = "#0D0D1A"     # deep space black-blue
+secondaryBackgroundColor = "#1A1A2E"
+textColor = "#FFFFFF"           # pure white for maximum readability
+font = "sans serif"
