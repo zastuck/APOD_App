@@ -112,6 +112,7 @@ def APOD_dialog():
             padding: 20px;
             box-sizing: border-box;
             border-radius: 0 0 8px 8px;
+            line-height: 1;
         ">
         <style>
             .apod-explanation {{
@@ -123,10 +124,10 @@ def APOD_dialog():
                 }}
             }}
         </style>
-            <h4 style="margin: 0; line-height: 0.75; cursor: pointer;">{apod['title']}</h4>
-            <h6 style="margin: 0 0 0.5vw 0; line-height: 0.75;">{pub_date.strftime("%A, %B %d, %Y")}</h6>
+            <h4 style="margin: 0; line-height: 1; cursor: pointer;">{apod['title']}</h4>
+            <h6 style="margin: 0 0 0.5vw 0; line-height: 1;">{pub_date.strftime("%A, %B %d, %Y")}</h6>
             <p class="apod-explanation" style="margin: 0; font-size: 0.7em; line-height: 1;">{apod['explanation']}</p>
-            <p style="margin: 0; font-size: 0.7em; line-height: 0.75;">{apod['credit']}</p>
+            <p style="margin: 0; font-size: 0.7em; line-height: 1;">{apod['credit']}</p>
         </div>
     </div>
     """,
